@@ -1,8 +1,10 @@
-#ifndef BINARY_TREES_H
-#define BINARY_TREES_H
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
 
-#include<iostream>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -30,5 +32,7 @@ typedef struct binary_tree_s avl_t;
 
 /* Max Binary Heap */
 typedef struct binary_tree_s heap_t;
+
+void binary_tree_print(const binary_tree_t *);
 
 #endif
