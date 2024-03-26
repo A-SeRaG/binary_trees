@@ -1,10 +1,12 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_postorder - Entry point
- * @tree: A pointer.
- * @func: A pointer.
- */
+ * binary_tree_postorder - Inserts a node as a left
+ * @tree: A pointer
+ * @func: A function
+ * Return: sussucceed
+*/
+
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 	if (tree && func)
@@ -13,4 +15,4 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 		binary_tree_postorder(tree->right, func);
 		func(tree->n);
 	}
-}i
+}
