@@ -7,7 +7,7 @@
  * Return: sussucceed
 */
 
-void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 {
 	if (tree && func)
 	{
