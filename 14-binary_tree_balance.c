@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - mesure of tree
+ * binary_tree_balance - mesure of tree.
  * @tree: A pointer
  * Return: tree
  */
