@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_depth - Inserts a node as a left.
+ * binary_tree_depth - Inserts a node as a lef.
  * @tree: A pointer
  * Return: sussucceed
 */
