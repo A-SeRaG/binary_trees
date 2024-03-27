@@ -2,7 +2,7 @@
 
 
 /**
- * is_leaf - Checks
+ * is_leaf - Checks.
  * @node: A pointer
  * Return: the node
  */
