@@ -3,7 +3,7 @@
 /**
  * binary_tree_nodes - Counts the nodes.
  * @tree: A pointer
- * Return: number of tree.
+ * Return: number of tree
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
