@@ -1,18 +1,19 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_nodes - Inserts a node as a left
+ * binary_tree_nodes - Counts
  * @tree: A pointer
- * Return: sussucceed
-*/
-
+ * Return: tree
+ */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
-	if (!tree)
-		return (0);
+	size_t nodes = 0;
 
-	if (tree->left && tree->right)
-		return (1 + binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right));
-	else
-		return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right));
+	if (tree)
+	{
+		nodes += (tree->left || tree->right) ? 1 : 0;
+		nodes += binary_tree_nodes(tree->left);
+		nodes += binary_tree_nodes(tree->right);
+	}
+	return (nodes);
 }
