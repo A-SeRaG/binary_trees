@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_height - Inserts a node as a left.
- * @tree: A pointer
+ * @tree: A pointer.
  * Return: sussucceed
 */
 
