@@ -3,7 +3,7 @@
 /**
  * binary_tree_insert_right - Inserts a node as a left
  * @parent: A pointer
- * @value: The value
+ * @value: The value.
  * Return: sussucceed
 */
 
