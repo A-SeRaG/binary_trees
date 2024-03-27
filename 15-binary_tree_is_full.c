@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * is_full_recursive - binary tree
+ * is_full_recursive - binary tree.
  * @tree: A pointer
  * Return: tree
  */
